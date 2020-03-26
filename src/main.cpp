@@ -31,11 +31,19 @@ void loop()
 {
   double P=mySensor.readFloatPressure()/133;
   char press[5];
-  Serial.println(P, 2);
+  int motor=0;
+  Serial.print(P, 2);
+  Serial.print(",");
+
   sprintf(press, "%.2f", P);
   u8g2.clearBuffer();					// clear the internal memory
   u8g2.setFont(u8g2_font_ncenB08_tr);	// choose a suitable font
   u8g2.drawStr(0,10,press);	// write something to the internal memory
   u8g2.sendBuffer();					// transfer internal memory to the display
   delay(50);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  motor=map(P, 650, 850, 0, 255);
+  analogWrite(3, motor);
+  Serial.println(motor);
 }
