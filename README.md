@@ -1,5 +1,6 @@
 # VentTest
- Test (and control) system for ventilators. ***THIS IS NOT A DEVICE TO BE USED FOR MEDICAL CARE UNTIL PROPER TESTING AND APPROVAL!***
+ Test (and control) system for ventilators.
+ ***THIS IS NOT A DEVICE TO BE USED FOR MEDICAL CARE UNTIL PROPER TESTING AND APPROVAL!***
 
 BoM: https://docs.google.com/spreadsheets/d/19nkZtr2UGS0-7EhZOAW3RBdrys8iPUgRCHaCz0rV6_4/edit?usp=sharing
 
