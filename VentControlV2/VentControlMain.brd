@@ -92,10 +92,10 @@ GND</text>
 <text x="31.75" y="45.72" size="1.778" layer="21">Arduino
 Nano</text>
 <text x="31.242" y="21.082" size="1.778" layer="21">USB SIDE</text>
-<hole x="50.8" y="22.86" drill="0.08381875"/>
-<hole x="20.32" y="35.56" drill="0.08381875"/>
-<hole x="10.16" y="64.77" drill="0.08381875"/>
-<text x="52.07" y="27.94" size="1.778" layer="22" rot="MR0">Coventor
+<hole x="50.8" y="22.86" drill="3.2512"/>
+<hole x="20.32" y="35.56" drill="3.2512"/>
+<hole x="10.16" y="64.77" drill="3.2512"/>
+<text x="34.29" y="10.16" size="1.778" layer="22" rot="MR0">Coventor
 VentControl Main V2
 cc2020
 Peter Marchetto</text>
@@ -1066,8 +1066,6 @@ design rules under a new name.
 <wire x1="2.5908" y1="62.2046" x2="3.0226" y2="62.2046" width="1.27" layer="16"/>
 <wire x1="2.5908" y1="49.6824" x2="2.54" y2="49.53" width="1.27" layer="16"/>
 <wire x1="2.5908" y1="62.2046" x2="2.54" y2="62.23" width="1.27" layer="16"/>
-<wire x1="9.9314" y1="62.2046" x2="17.7038" y2="62.2046" width="1.27" layer="16"/>
-<wire x1="6.477" y1="58.7502" x2="9.9314" y2="62.2046" width="1.27" layer="16"/>
 <wire x1="17.7038" y1="62.2046" x2="17.78" y2="62.23" width="1.27" layer="16"/>
 <wire x1="28.067" y1="52.2732" x2="29.1465" y2="52.2732" width="1.27" layer="16"/>
 <wire x1="18.3515" y1="61.9887" x2="28.067" y2="52.2732" width="1.27" layer="16"/>
@@ -1113,6 +1111,11 @@ design rules under a new name.
 <wire x1="4.1021" y1="3.6703" x2="3.89" y2="3.81" width="1.27" layer="16"/>
 <wire x1="21.1582" y1="3.4544" x2="21.67" y2="3.81" width="1.27" layer="16"/>
 <via x="39.2938" y="56.9976" extent="1-16" drill="0.35"/>
+<wire x1="11.6586" y1="61.7474" x2="17.272" y2="61.7474" width="1.27" layer="16"/>
+<wire x1="9.0678" y1="59.1566" x2="11.6586" y2="61.7474" width="1.27" layer="16"/>
+<wire x1="6.9088" y1="59.1566" x2="9.0678" y2="59.1566" width="1.27" layer="16"/>
+<wire x1="17.272" y1="61.7474" x2="17.78" y2="62.23" width="1.27" layer="16"/>
+<wire x1="6.9088" y1="59.1566" x2="6.477" y2="58.7502" width="1.27" layer="16"/>
 </signal>
 <signal name="3V3BUS">
 <contactref element="MODUL1" pad="J2.14"/>

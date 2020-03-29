@@ -95,7 +95,7 @@ Nano</text>
 <hole x="50.8" y="22.86" drill="0.08381875"/>
 <hole x="20.32" y="35.56" drill="0.08381875"/>
 <hole x="10.16" y="64.77" drill="0.08381875"/>
-<text x="34.29" y="10.16" size="1.778" layer="22" rot="MR0">Coventor
+<text x="52.07" y="27.94" size="1.778" layer="22" rot="MR0">Coventor
 VentControl Main V2
 cc2020
 Peter Marchetto</text>
